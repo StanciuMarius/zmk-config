@@ -1,0 +1,44 @@
+# SPDX-License-Identifier: MIT
+
+if SHIELD_TOTEM_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "TOTEM"
+
+# The dongle is the central: it holds the keymap and talks USB HID to the host.
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+# Both halves connect to it.
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+# 2 peripherals + the 5 host BLE profiles ZMK allows by default.
+config BT_MAX_CONN
+    default 7
+
+config BT_MAX_PAIRED
+    default 7
+
+endif
+
+if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "TOTEM"
+
+# Deliberately NOT central. In the stock Mechboards firmware the left half was
+# the central; with a dongle both halves are peripherals. ZMK_SPLIT_ROLE_CENTRAL
+# defaults to n, so simply not setting it here is what demotes them.
+
+endif
+
+if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT || SHIELD_TOTEM_DONGLE
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
+    default y
+
+endif

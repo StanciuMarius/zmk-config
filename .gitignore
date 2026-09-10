@@ -1,0 +1,5 @@
+# ZMK/west build output
+build/
+.west/
+zephyr/
+modules/

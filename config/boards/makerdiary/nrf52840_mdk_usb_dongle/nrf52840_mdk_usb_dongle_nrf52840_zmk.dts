@@ -1,0 +1,14 @@
+/*
+ * ZMK variant of the Makerdiary nRF52840 MDK USB Dongle.
+ *
+ * Pulls in Zephyr's own board devicetree and adds only what ZMK needs. The
+ * dongle runs off USB, so there is no zmk,battery node.
+ */
+
+/dts-v1/;
+#include <../boards/makerdiary/nrf52840_mdk_usb_dongle/nrf52840_mdk_usb_dongle.dts>
+
+/ {
+    model = "nRF52840 MDK USB Dongle";
+    compatible = "nrf52840_mdk_usb_dongle";
+};

@@ -1,0 +1,1189 @@
+{
+  "created": "2026-09-10T10:18:12",
+  "device_name": "TOTEM",
+  "keymap": {
+    "layers": [
+      {
+        "id": 0,
+        "name": "BASE",
+        "bindings": [
+          {
+            "behavior_id": 3,
+            "param1": 458772,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 20, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458778,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 26, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458760,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 8, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458773,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 21, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458775,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 23, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458780,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 28, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458776,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 24, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458764,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 12, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458770,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 18, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458771,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 19, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458756,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 4, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458774,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 22, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458759,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 7, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458761,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 9, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458762,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 10, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458763,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 11, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458765,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 13, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458766,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 14, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458767,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 15, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458803,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 51, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458977,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 225, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458781,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 29, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458779,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 27, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458758,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 6, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458777,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 25, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458757,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 5, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458769,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 17, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458768,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 16, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458806,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 54, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458807,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 55, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458808,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 56, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458795,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 43, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458978,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 226, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458976,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 224, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 19,
+            "param1": 1,
+            "param2": 458796,
+            "behavior": "Layer-Tap",
+            "decoded": "Behavior(LayerTap { layer_id: 1, tap: HidUsage { page: 7, id: 44, modifiers: 0 } })"
+          },
+          {
+            "behavior_id": 19,
+            "param1": 2,
+            "param2": 458796,
+            "behavior": "Layer-Tap",
+            "decoded": "Behavior(LayerTap { layer_id: 2, tap: HidUsage { page: 7, id: 44, modifiers: 0 } })"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458840,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 88, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458981,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 229, modifiers: 0 }))"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "NAVI",
+        "bindings": [
+          {
+            "behavior_id": 3,
+            "param1": 17235988,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 20, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235994,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 26, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235976,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 8, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235989,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 21, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235991,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 23, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 34013226,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 42, modifiers: 2 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 151453776,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 80, modifiers: 9 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 134676523,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 43, modifiers: 8 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 151453775,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 79, modifiers: 9 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458839,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 87, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235972,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 4, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235990,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 22, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235975,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 7, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235977,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 9, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235978,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 10, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458793,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 41, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458832,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 80, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458834,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 82, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458831,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 79, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458838,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 86, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235997,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 29, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235995,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 27, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235974,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 6, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235993,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 25, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17235973,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 5, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458979,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 227, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17236022,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 54, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458833,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 81, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 17236023,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 55, modifiers: 1 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458837,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 85, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 9,
+            "param1": 3,
+            "param2": 0,
+            "behavior": "Momentary Layer",
+            "decoded": "Behavior(MomentaryLayer { layer_id: 3 })"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 34013272,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 88, modifiers: 2 }))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "SYM",
+        "bindings": [
+          {
+            "behavior_id": 3,
+            "param1": 458782,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 30, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458783,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 31, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458784,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 32, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458785,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 33, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458786,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 34, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458787,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 35, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458788,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 36, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458789,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 37, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458790,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 38, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458791,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 39, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458797,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 45, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458798,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 46, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458799,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 47, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458800,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 48, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458803,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 51, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458977,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 225, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458804,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 52, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458806,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 54, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458807,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 55, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458808,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 56, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458805,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 53, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 21,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "giphy",
+            "decoded": "Behavior(Custom { behavior_id: 21, display_name: \"giphy\", param1: Unused, param2: Unused })"
+          },
+          {
+            "behavior_id": 9,
+            "param1": 3,
+            "param2": 0,
+            "behavior": "Momentary Layer",
+            "decoded": "Behavior(MomentaryLayer { layer_id: 3 })"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "ADJ",
+        "bindings": [
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 13,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Bluetooth",
+            "decoded": "Behavior(Bluetooth(Clear))"
+          },
+          {
+            "behavior_id": 15,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Output Selection",
+            "decoded": "Behavior(OutputSelection(Toggle))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458816,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 64, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458817,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 65, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458818,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 66, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458821,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 69, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 14,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Bootloader",
+            "decoded": "Behavior(Bootloader)"
+          },
+          {
+            "behavior_id": 13,
+            "param1": 1,
+            "param2": 0,
+            "behavior": "Bluetooth",
+            "decoded": "Behavior(Bluetooth(Next))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 13,
+            "param1": 4,
+            "param2": 0,
+            "behavior": "Bluetooth",
+            "decoded": "Behavior(Bluetooth(ClearAll))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458813,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 61, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458814,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 62, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458815,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 63, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458820,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 68, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 16,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Studio Unlock",
+            "decoded": "Behavior(StudioUnlock)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 13,
+            "param1": 2,
+            "param2": 0,
+            "behavior": "Bluetooth",
+            "decoded": "Behavior(Bluetooth(Prev))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 13,
+            "param1": 5,
+            "param2": 0,
+            "behavior": "Bluetooth",
+            "decoded": "Behavior(Bluetooth(Disconnect(0)))"
+          },
+          {
+            "behavior_id": 17,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Reset",
+            "decoded": "Behavior(Reset)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458810,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 58, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458811,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 59, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458812,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 60, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 3,
+            "param1": 458819,
+            "param2": 0,
+            "behavior": "Key Press",
+            "decoded": "Behavior(KeyPress(HidUsage { page: 7, id: 67, modifiers: 0 }))"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          },
+          {
+            "behavior_id": 18,
+            "param1": 0,
+            "param2": 0,
+            "behavior": "Transparent",
+            "decoded": "Behavior(Transparent)"
+          }
+        ]
+      }
+    ],
+    "available_layers": 0,
+    "max_layer_name_length": 20
+  },
+  "behaviors": {
+    "1": {
+      "name": "Caps Word",
+      "details_b64": "CAESCUNhcHMgV29yZA=="
+    },
+    "2": {
+      "name": "External Power",
+      "details_b64": "CAISDkV4dGVybmFsIFBvd2Vy"
+    },
+    "3": {
+      "name": "Key Press",
+      "details_b64": "CAMSCUtleSBQcmVzcxoPCg0KA0tleSoGCP8BEP8f"
+    },
+    "4": {
+      "name": "Grave/Escape",
+      "details_b64": "CAQSDEdyYXZlL0VzY2FwZQ=="
+    },
+    "5": {
+      "name": "Key Repeat",
+      "details_b64": "CAUSCktleSBSZXBlYXQ="
+    },
+    "6": {
+      "name": "Key Toggle",
+      "details_b64": "CAYSCktleSBUb2dnbGUaDwoNCgNLZXkqBgj/ARD/Hw=="
+    },
+    "7": {
+      "name": "None",
+      "details_b64": "CAcSBE5vbmU="
+    },
+    "8": {
+      "name": "Sticky Key",
+      "details_b64": "CAgSClN0aWNreSBLZXkaDwoNCgNLZXkqBgj/ARD/Hw=="
+    },
+    "9": {
+      "name": "Momentary Layer",
+      "details_b64": "CAkSD01vbWVudGFyeSBMYXllchoLCgkKBUxheWVyMgA="
+    },
+    "10": {
+      "name": "Sticky Layer",
+      "details_b64": "CAoSDFN0aWNreSBMYXllchoLCgkKBUxheWVyMgA="
+    },
+    "11": {
+      "name": "To Layer",
+      "details_b64": "CAsSCFRvIExheWVyGgsKCQoFTGF5ZXIyAA=="
+    },
+    "12": {
+      "name": "Toggle Layer",
+      "details_b64": "CAwSDFRvZ2dsZSBMYXllchoLCgkKBUxheWVyMgA="
+    },
+    "13": {
+      "name": "Bluetooth",
+      "details_b64": "CA0SCUJsdWV0b290aBpcChAKDE5leHQgUHJvZmlsZRgBChQKEFByZXZpb3VzIFByb2ZpbGUYAgoWChJDbGVhciBBbGwgUHJvZmlsZXMYBAoaChZDbGVhciBTZWxlY3RlZCBQcm9maWxlGAAaOwoSCg5TZWxlY3QgUHJvZmlsZRgDChYKEkRpc2Nvbm5lY3QgUHJvZmlsZRgFEg0KB1Byb2ZpbGUiAhAF"
+    },
+    "14": {
+      "name": "Bootloader",
+      "details_b64": "CA4SCkJvb3Rsb2FkZXI="
+    },
+    "15": {
+      "name": "Output Selection",
+      "details_b64": "CA8SEE91dHB1dCBTZWxlY3Rpb24aNAoSCg5Ub2dnbGUgT3V0cHV0cxgACg4KClVTQiBPdXRwdXQYAQoOCgpCTEUgT3V0cHV0GAI="
+    },
+    "16": {
+      "name": "Studio Unlock",
+      "details_b64": "CBASDVN0dWRpbyBVbmxvY2s="
+    },
+    "17": {
+      "name": "Reset",
+      "details_b64": "CBESBVJlc2V0"
+    },
+    "18": {
+      "name": "Transparent",
+      "details_b64": "CBISC1RyYW5zcGFyZW50"
+    },
+    "19": {
+      "name": "Layer-Tap",
+      "details_b64": "CBMSCUxheWVyLVRhcBoaCgkKBUxheWVyMgASDQoDS2V5KgYI/wEQ/x8="
+    },
+    "20": {
+      "name": "Mod-Tap",
+      "details_b64": "CBQSB01vZC1UYXAaHgoNCgNLZXkqBgj/ARD/HxINCgNLZXkqBgj/ARD/Hw=="
+    },
+    "21": {
+      "name": "giphy",
+      "details_b64": "CBUSBWdpcGh5GgA="
+    }
+  },
+  "raw_b64": {
+    "keymap": "CroCEgRCQVNFGgYIBhCUgBwaBggGEJqAHBoGCAYQiIAcGgYIBhCVgBwaBggGEJeAHBoGCAYQnIAcGgYIBhCYgBwaBggGEIyAHBoGCAYQkoAcGgYIBhCTgBwaBggGEISAHBoGCAYQloAcGgYIBhCHgBwaBggGEImAHBoGCAYQioAcGgYIBhCLgBwaBggGEI2AHBoGCAYQjoAcGgYIBhCPgBwaBggGELOAHBoGCAYQ4YEcGgYIBhCdgBwaBggGEJuAHBoGCAYQhoAcGgYIBhCZgBwaBggGEIWAHBoGCAYQkYAcGgYIBhCQgBwaBggGELaAHBoGCAYQt4AcGgYIBhC4gBwaBggGEKuAHBoGCAYQ4oEcGgYIBhDggRwaCAgmEAEYrIAcGggIJhACGKyAHBoGCAYQ2IAcGgYIBhDlgRwKtAIIARIETkFWSRoHCAYQlICcCBoHCAYQmoCcCBoHCAYQiICcCBoHCAYQlYCcCBoHCAYQl4CcCBoHCAYQqoCcEBoHCAYQ0ICcSBoHCAYQq4CcQBoHCAYQz4CcSBoGCAYQ14AcGgcIBhCEgJwIGgcIBhCWgJwIGgcIBhCHgJwIGgcIBhCJgJwIGgcIBhCKgJwIGgYIBhCpgBwaBggGENCAHBoGCAYQ0oAcGgYIBhDPgBwaBggGENaAHBoCCCQaBwgGEJ2AnAgaBwgGEJuAnAgaBwgGEIaAnAgaBwgGEJmAnAgaBwgGEIWAnAgaBggGEOOBHBoHCAYQtoCcCBoGCAYQ0YAcGgcIBhC3gJwIGgYIBhDVgBwaAggkGgIIJBoCCCQaAggkGgQIEhADGgcIBhDYgJwQGgIIJAr1AQgCEgNTWU0aBggGEJ6AHBoGCAYQn4AcGgYIBhCggBwaBggGEKGAHBoGCAYQooAcGgYIBhCjgBwaBggGEKSAHBoGCAYQpYAcGgYIBhCmgBwaBggGEKeAHBoCCCQaAggkGgIIJBoCCCQaAggkGgYIBhCtgBwaBggGEK6AHBoGCAYQr4AcGgYIBhCwgBwaBggGELOAHBoGCAYQ4YEcGgIIJBoCCCQaAggkGgIIJBoCCCQaAggkGgYIBhC0gBwaBggGELaAHBoGCAYQt4AcGgYIBhC4gBwaBggGELWAHBoCCCQaAggqGgQIEhADGgIIJBoCCCQaAggkCtcBCAMSA0FEShoCCCQaAggaGgIIHhoCCCQaAggkGgIIJBoGCAYQwIAcGgYIBhDBgBwaBggGEMKAHBoGCAYQxYAcGgIIHBoECBoQARoCCCQaAggkGgQIGhAEGgIIJBoGCAYQvYAcGgYIBhC+gBwaBggGEL+AHBoGCAYQxIAcGgIIIBoCCCQaBAgaEAIaAggkGgQIGhAFGgIIIhoCCCQaBggGELqAHBoGCAYQu4AcGgYIBhC8gBwaBggGEMOAHBoCCCQaAggkGgIIJBoCCCQaAggkGgIIJBoCCCQYFA==",
+    "physical_layouts": "Eq8FCgVUT1RFTRIVCNIBEMgBGJoBIK4CKM8PMIQCOJIDEhQI0gEQyAEYiAMgeCifBjDyAzjcARIJCNIBEMgBGPoEEgsI0gEQyAEYzgYgYhIMCNIBEMgBGKIIIIIBEgwI0gEQyAEYyA0gggESCwjSARDIARicDyBiEgkI0gEQyAEY8BASFAjSARDIARjgEiB4KKAGMMoTONwBEhUI0gEQyAEYzhQgsAIo0A8wuBU4lAMSFQjSARDIARi+ASD0AyjPDzCmAjjYBBIVCNIBEMgBGJYDIMACKJ8GMIAEOKQDEgwI0gEQyAEY+gQgyAESDAjSARDIARjOBiCqAhIMCNIBEMgBGKIIIMoCEgwI0gEQyAEYyA0gzAISDAjSARDIARicDyCqAhIMCNIBEMgBGPAQIMgBEhUI0gEQyAEY0hIgwAIooAYwvBM4pAMSFQjSARDIARisFCD0AyjQDzCWFTjYBBIRCNIBEMgBIIYFKM8PMGg46gUSFQjSARDIARjgASC4BSjPDzDKAjicBhIVCNIBEMgBGKQDIIgEKJ8GMI4EOOwEEgwI0gEQyAEY+gQgkAMSDAjSARDIARjOBiDyAxIMCNIBEMgBGKIIIJIEEgwI0gEQyAEYyA0glAQSDAjSARDIARicDyDyAxIMCNIBEMgBGPAQIJADEhUI0gEQyAEYxBIgiAQooAYwrhM47AQSFQjSARDIARiKFCC6BSjQDzD0FDieBhIVCNIBEMgBGOoVIIYFKNAPMNQWOOoFEgwI0gEQyAEYkgYg5gUSFQjSARDIARj+ByCGBii4FzDmCDjqBhIVCNIBEMgBGNYJIOAGKPAuMMAKOMQHEhUI0gEQyAEYlAwg4AYo7y4w/gw4xAcSFQjSARDIARjsDSCGBii3FzDWDjjqBhIMCNIBEMgBGNYPIOYF",
+    "device_info": "CgVUT1RFTRIIumWAFj5mnCQ="
+  }
+}

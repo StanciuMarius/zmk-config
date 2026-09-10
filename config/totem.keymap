@@ -1,0 +1,76 @@
+/*
+ * TOTEM keymap. Used by all three builds - ZMK resolves `totem_left`,
+ * `totem_right` and `totem_dongle` back to the shield directory name `totem`,
+ * so this one file is the keymap for the whole keyboard. Only the dongle
+ * actually acts on it; the halves just report key positions.
+ *
+ * Reconstructed from a ZMK Studio backup taken 2026-09-10.
+ * Source: zmk-keymap-backup-20260910-1018.json  (device "TOTEM")
+ *
+ * Layer indices match Studio layer IDs exactly (0 BASE, 1 NAVI, 2 SYM, 3 ADJ),
+ * so &lt / &mo targets carried over unchanged. ADJ is reached by holding both
+ * thumb SPACE keys - it is a plain &mo 3 on each side, not a conditional layer.
+ *
+ * The backup also held a custom `giphy` behavior on the SYM left inner thumb.
+ * It was added by mistake and has been dropped; that position is &trans here.
+ * The original binding is still preserved in the JSON backup.
+ *
+ * No combos. Hold-tap tuning (tapping-term-ms, flavor, quick-tap-ms) for &lt
+ * was never recoverable from Studio, so ZMK defaults apply.
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/ext_power.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        // QWERTY. Thumbs: LALT LCTRL LT(NAVI,SPACE) | LT(SYM,SPACE) KP_ENTER RSHFT
+        base_layer {
+            display-name = "BASE";
+            bindings = <
+                                  &kp Q             &kp W             &kp E             &kp R             &kp T             &kp Y             &kp U             &kp I             &kp O             &kp P
+                                  &kp A             &kp S             &kp D             &kp F             &kp G             &kp H             &kp J             &kp K             &kp L             &kp SEMI
+                &kp LSHFT         &kp Z             &kp X             &kp C             &kp V             &kp B             &kp N             &kp M             &kp COMMA         &kp DOT           &kp FSLH          &kp TAB
+                                                                      &kp LALT          &kp LCTRL         &lt 1 SPACE       &lt 2 SPACE       &kp KP_ENTER      &kp RSHFT
+            >;
+        };
+
+        // Left hand = LCTRL+letter shortcuts. Right hand = arrows / Windows desktop switching.
+        navi_layer {
+            display-name = "NAVI";
+            bindings = <
+                                  &kp LC(Q)         &kp LC(W)         &kp LC(E)         &kp LC(R)         &kp LC(T)         &kp LS(BSPC)      &kp LC(LG(LEFT))  &kp LG(TAB)       &kp LC(LG(RIGHT)) &kp KP_PLUS
+                                  &kp LC(A)         &kp LC(S)         &kp LC(D)         &kp LC(F)         &kp LC(G)         &kp ESC           &kp LEFT          &kp UP            &kp RIGHT         &kp KP_MINUS
+                &trans            &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         &kp LC(B)         &kp LGUI          &kp LC(COMMA)     &kp DOWN          &kp LC(DOT)       &kp KP_MULTIPLY   &trans
+                                                                      &trans            &trans            &trans            &mo 3             &kp LS(KP_ENTER)  &trans
+            >;
+        };
+
+        // Numbers on the top row, punctuation on the right hand.
+        sym_layer {
+            display-name = "SYM";
+            bindings = <
+                                  &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0
+                                  &trans            &trans            &trans            &trans            &trans            &kp MINUS         &kp EQUAL         &kp LBKT          &kp RBKT          &kp SEMI
+                &kp LSHFT         &trans            &trans            &trans            &trans            &trans            &trans            &kp SQT           &kp COMMA         &kp DOT           &kp FSLH          &kp GRAVE
+                                                                      &trans            &trans            &mo 3             &trans            &trans            &trans
+            >;
+        };
+
+        // Reached by holding BOTH thumb SPACE keys. BT / output / bootloader / F-keys.
+        adj_layer {
+            display-name = "ADJ";
+            bindings = <
+                                  &trans            &bt BT_CLR        &out OUT_TOG      &trans            &trans            &trans            &kp F7            &kp F8            &kp F9            &kp F12
+                                  &bootloader       &bt BT_NXT        &trans            &trans            &bt BT_CLR_ALL    &trans            &kp F4            &kp F5            &kp F6            &kp F11
+                &studio_unlock    &trans            &bt BT_PRV        &trans            &bt BT_DISC 0     &sys_reset        &trans            &kp F1            &kp F2            &kp F3            &kp F10           &trans
+                                                                      &trans            &trans            &trans            &trans            &trans            &trans
+            >;
+        };
+    };
+};

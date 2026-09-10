@@ -1,0 +1,23 @@
+/*
+ * The dongle has no switches. ZMK still requires a kscan, so it gets the mock
+ * driver with zero rows/columns/events, per the official dongle guide:
+ * https://zmk.dev/docs/development/hardware-integration/dongle
+ *
+ * Note: some community TOTEM dongle configs instead copy the right half's real
+ * GPIO matrix here. That scans pins the dongle does not have; do not do it.
+ */
+
+#include "totem_layout.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+    };
+
+    mock_kscan: kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};

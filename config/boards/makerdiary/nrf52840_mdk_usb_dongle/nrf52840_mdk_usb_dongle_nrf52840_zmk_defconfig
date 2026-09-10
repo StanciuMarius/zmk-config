@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: MIT
+
+CONFIG_ARM_MPU=y
+CONFIG_GPIO=y
+
+# Settings storage (BLE bonds) lives in internal flash.
+CONFIG_MPU_ALLOW_FLASH_WRITE=y
+CONFIG_NVS=y
+CONFIG_SETTINGS_NVS=y
+CONFIG_FLASH=y
+CONFIG_FLASH_PAGE_LAYOUT=y
+CONFIG_FLASH_MAP=y
+
+# Produce a .uf2 for the factory bootloader (family id 0xADA52840 is the
+# nRF52840 default).
+CONFIG_BUILD_OUTPUT_UF2=y
+
+# NOTE: CONFIG_USE_DT_CODE_PARTITION is deliberately left unset. Zephyr's
+# board Kconfig.defconfig then applies
+#     FLASH_LOAD_OFFSET = 0x1000  (depends on BOARD_HAS_NRF5_BOOTLOADER
+#                                  && !USE_DT_CODE_PARTITION)
+# which links the app immediately after the factory-programmed Nordic MBR,
+# exactly where the stock UF2 bootloader expects it. Setting
+# USE_DT_CODE_PARTITION=y here would silently change the link address.
+
+CONFIG_ZMK_USB=y
+CONFIG_ZMK_BLE=y
