@@ -36,8 +36,13 @@ There is no `&bootloader` key bound for the dongle - use the physical button.
 
 ## Layout
 
-38 keys, four layers: BASE, NAVI, SYM, ADJ. ADJ is reached by holding **both**
+38 keys, six layers: BASE, NAVI, SYM, GAME_1, GAME_2, ADJ. ADJ is reached by holding **both**
 thumb SPACE keys.
+
+**Game layers** (one-handed gaming, right hand on the mouse): toggle GAME_1
+on and off with both thumbs + `G`. In GAME_1 the left thumb SPACE becomes a
+plain hold for GAME_2, which is SYM (numbers on the top row) plus `Y U I O P`
+on the home row and `H J K L N` below, all on the left half.
 
 The keymap in `config/totem.keymap` was recovered from the stock firmware over
 ZMK Studio's RPC protocol, because Studio has no export feature

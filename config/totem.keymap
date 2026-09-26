@@ -7,9 +7,11 @@
  * Reconstructed from a ZMK Studio backup taken 2026-09-10.
  * Source: zmk-keymap-backup-20260910-1018.json  (device "TOTEM")
  *
- * Layer indices match Studio layer IDs exactly (0 BASE, 1 NAVI, 2 SYM, 3 ADJ),
- * so &lt / &mo targets carried over unchanged. ADJ is reached by holding both
- * thumb SPACE keys - it is a plain &mo 3 on each side, not a conditional layer.
+ * Layers: 0 BASE, 1 NAVI, 2 SYM, 3 GAME_1, 4 GAME_2, 5 ADJ. The first three
+ * match the Studio layer IDs in the backup. ADJ was layer 3 in the backup; it
+ * moved to the top so it outranks the game layers and its G toggle is always
+ * reachable. ADJ is reached by holding both thumb keys - a plain &mo on each
+ * side, not a conditional layer.
  *
  * The backup also held a custom `giphy` behavior on the SYM left inner thumb.
  * It was added by mistake and has been dropped; that position is &trans here.
@@ -25,6 +27,13 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+#define BASE    0
+#define NAVI    1
+#define SYM     2
+#define GAME_1  3
+#define GAME_2  4
+#define ADJ     5
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -36,7 +45,7 @@
                                   &kp Q             &kp W             &kp E             &kp R             &kp T             &kp Y             &kp U             &kp I             &kp O             &kp P
                                   &kp A             &kp S             &kp D             &kp F             &kp G             &kp H             &kp J             &kp K             &kp L             &kp SEMI
                 &kp LSHFT         &kp Z             &kp X             &kp C             &kp V             &kp B             &kp N             &kp M             &kp COMMA         &kp DOT           &kp FSLH          &kp TAB
-                                                                      &kp LALT          &kp LCTRL         &lt 1 SPACE       &lt 2 SPACE       &kp KP_ENTER      &kp RSHFT
+                                                                      &kp LALT          &kp LCTRL         &lt NAVI SPACE    &lt SYM SPACE     &kp KP_ENTER      &kp RSHFT
             >;
         };
 
@@ -47,7 +56,7 @@
                                   &kp LC(Q)         &kp LC(W)         &kp LC(E)         &kp LC(R)         &kp LC(T)         &kp LS(BSPC)      &kp LC(LG(LEFT))  &kp LG(TAB)       &kp LC(LG(RIGHT)) &kp KP_PLUS
                                   &kp LC(A)         &kp LC(S)         &kp LC(D)         &kp LC(F)         &kp LC(G)         &kp ESC           &kp LEFT          &kp UP            &kp RIGHT         &kp KP_MINUS
                 &trans            &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         &kp LC(B)         &kp LGUI          &kp LC(COMMA)     &kp DOWN          &kp LC(DOT)       &kp KP_MULTIPLY   &trans
-                                                                      &trans            &trans            &trans            &mo 3             &kp LS(KP_ENTER)  &trans
+                                                                      &trans            &trans            &trans            &mo ADJ           &kp LS(KP_ENTER)  &trans
             >;
         };
 
@@ -58,16 +67,42 @@
                                   &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0
                                   &trans            &trans            &trans            &trans            &trans            &kp MINUS         &kp EQUAL         &kp LBKT          &kp RBKT          &kp SEMI
                 &kp LSHFT         &trans            &trans            &trans            &trans            &trans            &trans            &kp SQT           &kp COMMA         &kp DOT           &kp FSLH          &kp GRAVE
-                                                                      &trans            &trans            &mo 3             &trans            &trans            &trans
+                                                                      &trans            &trans            &mo ADJ           &trans            &trans            &trans
             >;
         };
 
-        // Reached by holding BOTH thumb SPACE keys. BT / output / bootloader / F-keys.
+        // Toggled with both thumbs + G. BASE, except the left thumb SPACE is
+        // a plain momentary GAME_2 (no SPACE on the left hand here).
+        game_1_layer {
+            display-name = "GAME_1";
+            bindings = <
+                                  &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
+                                  &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
+                &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
+                                                                      &trans            &trans            &mo GAME_2        &trans            &trans            &trans
+            >;
+        };
+
+        // SYM, plus the right-hand letters on SYM's empty left keys so they are
+        // reachable one-handed: Y U I O P on the home row, H J K L N below.
+        // Right thumb opens ADJ, mirroring SYM's left thumb.
+        game_2_layer {
+            display-name = "GAME_2";
+            bindings = <
+                                  &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0
+                                  &kp Y             &kp U             &kp I             &kp O             &kp P             &kp MINUS         &kp EQUAL         &kp LBKT          &kp RBKT          &kp SEMI
+                &kp LSHFT         &kp H             &kp J             &kp K             &kp L             &kp N             &trans            &kp SQT           &kp COMMA         &kp DOT           &kp FSLH          &kp GRAVE
+                                                                      &trans            &trans            &trans            &mo ADJ           &trans            &trans
+            >;
+        };
+
+        // Reached by holding BOTH thumb keys. BT / output / bootloader / F-keys.
+        // G toggles GAME_1 (it was BT_CLR_ALL in the backup).
         adj_layer {
             display-name = "ADJ";
             bindings = <
                                   &trans            &bt BT_CLR        &out OUT_TOG      &trans            &trans            &trans            &kp F7            &kp F8            &kp F9            &kp F12
-                                  &bootloader       &bt BT_NXT        &trans            &trans            &bt BT_CLR_ALL    &trans            &kp F4            &kp F5            &kp F6            &kp F11
+                                  &bootloader       &bt BT_NXT        &trans            &trans            &tog GAME_1       &trans            &kp F4            &kp F5            &kp F6            &kp F11
                 &studio_unlock    &trans            &bt BT_PRV        &trans            &bt BT_DISC 0     &sys_reset        &trans            &kp F1            &kp F2            &kp F3            &kp F10           &trans
                                                                       &trans            &trans            &trans            &trans            &trans            &trans
             >;
